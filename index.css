@@ -1,0 +1,92 @@
+body {
+	background-color: #f2f2f2;
+	font-family: sans-serif;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+#form-wrap {
+	max-width: 650px;
+	margin-top: 64px;
+	margin-left: auto;
+	margin-right: auto;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: stretch;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	row-gap: 8px;
+	margin-bottom: 16px;
+}
+form > div {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	border: 2px solid black;
+	box-sizing: border-box;
+	border-radius: 8px;
+	padding: 8px;
+}
+form > div > label {
+	padding: 0 0 0 0;
+	margin-right: 8px;
+	flex-basis: 50%;
+}
+.form-input {
+	width: 100%;
+	flex-basis: 100%;
+}
+table {
+	border-collapse: collapse;
+	max-width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	/* display: flex;
+	flex-direction: column; */
+}
+/* tr {
+	display: flex;
+	flex: 1;
+} */
+/* th, td {
+	text-align: left;
+	border-left: 2px solid #ddd;
+	border-right: 2px solid #ddd;
+	border-bottom: 2px solid #ddd;
+	border-top: 2px solid #ddd;
+	box-sizing: border-box;
+	flex: 1;
+} */
+th, td {
+	text-align: left;
+	border-left: 2px solid #ddd;
+	border-right: 2px solid #ddd;
+	border-bottom: 2px solid #ddd;
+	border-top: 2px solid #ddd;
+	margin-left: 0px;
+	margin-right: 8px;
+	margin-top: 0px;
+	margin-bottom: 4px;
+}
+th {
+	padding: 4px;
+}
+p {
+	text-align: center;
+}
+#back {
+	border: 2px solid black;
+	padding: 8px;
+	border-radius: 8px;
+	text-decoration: none;
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	font-size: 17.5px;
+	color: #000;
+}
